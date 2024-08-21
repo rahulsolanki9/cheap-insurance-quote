@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <title>cheap Insurance Quote</title>
+    <link rel="stylesheet" href="https://use.typekit.net/cmm2mwi.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/datepicker.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./css/thank-you.min.css" type="text/css" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+    <div class="wrapper ccpa  condition-page">
+        <div class="container">
+            <header >
+				<div class="header-container d-flex justify-between align-center">
+				<a href="index.html" class="logo">
+					<img class="org-logo" src="images/logo.svg" alt="">
+					<img class="white-logo" src="images/Logo-White (1).svg" alt="">
+				</a>
+				<div class="header-right d-flex align-center">
+					<a href="tel:+1(890)123-4567" class="call"><img src="images/call.svg" alt=""><span>+1 (890) 123 - 4567</span></a>
+					<a class="menu" href="javascript:void(0)">
+						<span class="menu-btn">
+							<span class="menu-line"></span>
+						</span>
+					</a>
+				</div>
+				</div>
+			</header>
+            <div class="header-menu-section">
+                <nav>
+                    <ul class="menu">
+                        <li>
+                            <a href="how-it-works.html">
+                                <span class="menu-label">// 01: How we can help</span>
+                                <span class="menu-text">How it Works.</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="about.html">
+                                <span class="menu-label">// 02: Why we built Car Insurance Discount - Work With
+                                    Us!</span>
+                                <span class="menu-text">About Us</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="faq.html">
+                                <span class="menu-label">// 03: Commonly Asked </span>
+                                <span class="menu-text">Frequent Questions</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contact.html">
+                                <span class="menu-label">// 04: Support</span>
+                                <span class="menu-text">Need some Help?</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+
+            </div>
+            <section>
+                <div class="inner-container">
+                    <div class="thank-you-content">
+                        <p>Submit a CCPA Request</p>
+
+                    </div>
+                    <form action="ccpa-action.php" method="POST" class="form">
+                        <p>Are you making this request on behalf of yourself or someone else?</p>
+                        <select id="request_for" class="text-field" name="request_for" required="required">
+                            <option value="">-- Select One --</option>
+                            <option value="Myself">Myself</option>
+                            <option value="Someone Else">Someone Else</option>
+                        </select>
+                        <p>What type of request would you like to make? (Select at least one)</p>
+                        <label>
+                            <input id="request_access" type="checkbox" name="request_type[]"
+                                value="Please provide access to my personal information" role="checkbox"
+                                aria-invalid="false">
+                            <p>Please provide access to my personal information</p>
+                        </label>
+                        <label>
+                            <input id="request_delete" type="checkbox" name="request_type[]"
+                                value="Please delete my personal information" role="checkbox" aria-invalid="false">
+                            <p>Please delete my personal information</p>
+                        </label>
+                        <label>
+                            <input id="request_dontsell" type="checkbox" name="request_type[]"
+                                value="Please do not sell my personal information" role="checkbox" aria-invalid="false">
+                            <p>Please do not sell my personal information</p>
+                        </label>
+                        <label>
+                            <input id="request_question" type="checkbox" name="request_type[]"
+                                value="Ask a question related to my personal information and/or the CCPA"
+                                role="checkbox" aria-invalid="false">
+                            <p>Ask carinsurancediscount.com a question related to my personal information and/or the
+                                CCPA
+                            </p>
+                        </label>
+                        <p class="last">Please send the following information to help us process your request (please
+                            use
+                            the information previously supplied to carinsurancediscount.com in order for us to identify
+                            you)
+                        </p>
+                        <ul class="form-list d-flex">
+                            <li class="col-6">
+
+                                <input class="text-field" id="first_name" type="text" name="first_name" type="text"
+                                    required placeholder="First Name">
+                            </li>
+                            <li class="col-6">
+                                <input class="text-field" type="text" id="last_name" type="text" name="last_name"
+                                    required placeholder="Last Name">
+                            </li>
+                            <li class="col-6">
+                                <input class="text-field" id="phone_number" type="tel" name="phone" maxlength="12"
+                                    class="text-field" required placeholder="Phone Number">
+                            </li>
+                            <li class="col-6">
+                                <input id="email" type="email" name="email" class="text-field" required
+                                    placeholder="Email">
+                            </li>
+                            <li class="col-6">
+                                <input id="street_address" type="text" name="address" class="text-field" required"
+                                    placeholder="Street Address">
+                            </li>
+                            <li class="col-6">
+                                <input id="city" type="text" name="city" class="text-field" required placeholder="City">
+                            </li>
+                            <li class="col-6">
+                                <input id="state" type="text" name="state" class="text-field" maxlength="2" required
+                                    placeholder="State">
+                            </li>
+
+                            <li class="col-6">
+                                <input id="zip" type="text" name="zip_code" class="text-field" required
+                                    placeholder="Zip Code">
+                            </li>
+
+                            <li>
+                                <div class="g-recaptcha" data-sitekey="6Lf4xM0pAAAAAGypiQ8VAvTQBRuPOU18un8nndw3"></div>
+                            </li>
+
+
+
+                            <li>
+                                <button class="quote-btn submit-btn">Submit Request</button>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </section>
+            <section class="find-us-section s-pt">
+				<div class="medium-container">
+					<div class="find-us-block align-center">
+						<a href="#">
+							<img class="find-logo" src="images/logo.svg">
+						</a>
+						<div class="find-us-social">
+							<p class="find-us-title"><strong>Find Us On :</strong></p>
+							<ul class="social-list">
+								<li>
+									<a href="https://www.facebook.com/Car Insurance Discount-102928101951294">
+										<img src="./images/facebook.svg" alt="">
+									</a>
+								</li>
+								<li>
+									<a href="https://www.pinterest.com/0vs07ug2s8js13r3d7v5egu73i04ee/_saved/">
+										<img src="./images/pinterest.svg" alt="">
+									</a>
+								</li>
+								<li>
+									<a href="https://www.instagram.com/Car Insurance Discount/">
+										<img src="./images/instagram.svg" alt="">
+									</a>
+								</li>
+								<li>
+									<a href="https://twitter.com/Car Insurance Discount">
+										<img src="./images/twitter.svg" alt="">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer>
+				<div class="medium-container">
+					<p>Car Insurance Discount is a customer-focused auto insurance referral service that allows
+						consumers to quickly and effortlessly request quotes from reputable local agencies. Car
+						Insurance Discount does not provide insurance plans directly to consumers nor do we represent
+						any specific providers. Car Insurance Discount connects consumers to advertisers and insurance
+						agencies only after we've gathered certain criteria from you. The lowest listed rates may not be
+						available from all companies listed. Your rates may vary based on your coverage limits, driving
+						records, deductibles, location, type of vehicle, and other variables.</p>
+					<p class="copyright">© 2024 Cheap Insurance Quote. All Rights Reserved.</p>
+					<p class="footer-bottom">Use of Car Insurance Discount Services (DBA CarInsuranceDiscount.com) is
+						subject to our
+						<a href="terms.html">Terms of Service</a>,
+						<a href="privacy.html">Privacy Policy</a>,
+						<a href="privacy.html#ca">Your California Rights.</a>,
+						<a href="ccpa.html">CCPA Request</a>
+					</p>
+				</div>
+			</footer>
+
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
